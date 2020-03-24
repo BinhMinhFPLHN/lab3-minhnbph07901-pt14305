@@ -11,7 +11,6 @@ import { ProductManagerComponent } from './product-manager/product-manager.compo
 import { AboutComponent } from './about/about.component';
 import { ServiceComponent } from './service/service.component';
 import { HomeComponent } from './home/home.component';
-import { NotFoundComponent } from './not-found/not-found.component';
 import { AddProductComponent } from './add-product/add-product.component';
 import { FormsModule } from '@angular/forms';
 
@@ -26,7 +25,6 @@ import { FormsModule } from '@angular/forms';
     AboutComponent,
     ServiceComponent,
     HomeComponent,
-    NotFoundComponent,
     AddProductComponent
   ],
   imports: [

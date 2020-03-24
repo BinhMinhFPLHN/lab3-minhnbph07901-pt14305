@@ -10,15 +10,11 @@ import { ProductManagerComponent } from './product-manager/product-manager.compo
 
 
 const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full'},
   {path: 'home', component: HomeComponent},
   {path: 'service', component: ServiceComponent},
-  {path: 'about', component: AboutComponent},
-  
+  {path: 'about', component: AboutComponent}, 
   {path: 'product-list', component: ProductListComponent},
   {path: 'product-manager', component: ProductManagerComponent},
-  {path: '404', component: NotFoundComponent},
-  { path: '**', redirectTo: '/404'}
 ];
 
 @NgModule({
