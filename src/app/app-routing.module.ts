@@ -11,6 +11,7 @@ import { ProductManagerComponent } from './product-manager/product-manager.compo
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
+  { path: 'product', component: ProductListComponent},
   {path: 'service', component: ServiceComponent},
   {path: 'about', component: AboutComponent}, 
   {path: 'product-list', component: ProductListComponent},
