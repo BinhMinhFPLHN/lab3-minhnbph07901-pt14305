@@ -12,9 +12,10 @@ import { ProductManagerComponent } from './product-manager/product-manager.compo
 import { AboutComponent } from './about/about.component';
 import { ServiceComponent } from './service/service.component';
 import { HomeComponent } from './home/home.component';
-import { AddProductComponent } from './add-product/add-product.component';
 import { FormsModule } from '@angular/forms';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { ProductEditComponent } from './product-edit/product-edit.component';
+import { ProductAddComponent } from './product-add/product-add.component';
 
 @NgModule({
   declarations: [
@@ -27,8 +28,9 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
     AboutComponent,
     ServiceComponent,
     HomeComponent,
-    AddProductComponent,
-    ProductDetailComponent
+    ProductDetailComponent,
+    ProductEditComponent,
+    ProductAddComponent
   ],
   imports: [
     BrowserModule,
