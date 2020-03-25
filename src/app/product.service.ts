@@ -20,12 +20,13 @@ export class ProductService {
     return this.http.get<Product[]>(this.api);
     // return this.products;
   }
+  getProduct(id): Observable<Product>{
+     console.log(id);
+    return this.http.get<Product>(`${this.api}/${id}`);
+    // return this.products;
+  }
   
-addProduct(product){
-  console.log(product);
-  let newObj = {  ...product };
-  this.products.push(newObj);
-  
-}
 
 }
+
+
